@@ -1,0 +1,25 @@
+@media only screen and (min-width: 768px) {
+  .header_after {
+    width: 100%;
+    height: 75vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url("/Assets/bad_bears/header_after.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .header_after {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url("/Assets/bad_bears/header_after.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+}

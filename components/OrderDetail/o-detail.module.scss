@@ -1,0 +1,89 @@
+.order_detail_container {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  padding: 2rem;
+  margin-top: 75px;
+  .order_detail_content {
+    width: 100%;
+    height: auto;
+    background: #f3f3f3;
+    border-radius: 10px;
+    padding: 1rem;
+    .header_sec {
+      h2 {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 40px;
+        color: #000000;
+      }
+    }
+    .item_heading {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      p {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 40px;
+        color: #000000;
+      }
+    }
+    .item_des {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      p {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 34px;
+        color: #000000;
+      }
+    }
+    .amount_container {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .am_sec {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+        p {
+          font-family: Inter;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 28px;
+          /* or 156% */
+
+          text-align: right;
+
+          color: #000000;
+          margin-bottom: 0;
+          b {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+    .btn_container {
+      width: 100%;
+      margin-top: 1.5rem;
+      padding-bottom: 0.5rem;
+      button {
+        width: 100%;
+      }
+    }
+  }
+}

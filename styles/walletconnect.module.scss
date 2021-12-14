@@ -1,0 +1,13 @@
+.wallet_connect_container{
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    p{
+        color: green;
+    }
+}

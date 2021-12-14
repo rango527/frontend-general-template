@@ -1,0 +1,19 @@
+@media only screen and (min-width: 768px) {
+  .landing_container {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    background-color: white;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .landing_container {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    background-color: white;
+    overflow: hidden;
+  }
+}

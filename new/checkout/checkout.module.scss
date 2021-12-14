@@ -1,0 +1,27 @@
+@media only screen and (min-width: 768px) {
+  .checkout_container {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    // h2 {
+    //   font-family: Inter;
+    //   font-style: normal;
+    //   font-weight: 800;
+    //   font-size: 36px;
+    //   line-height: 40px;
+    //   text-align: center;
+    //   color: #000000;
+    //   margin-top: 75px;
+    // }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .checkout_container {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+  }
+}

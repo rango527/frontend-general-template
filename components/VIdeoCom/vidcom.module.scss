@@ -1,0 +1,11 @@
+.video_container {
+    cursor: pointer;
+    width: 416px;
+    height: 216px;
+    video {
+      background-color: white;
+      width: 416px;
+      height: 216px;
+      // object-fit: scale-down;
+    }
+  }

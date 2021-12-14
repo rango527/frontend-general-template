@@ -1,0 +1,100 @@
+@media only screen and (min-width: 768px) {
+    .nav_sm_container {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .nav_sm_container {
+        position: fixed;
+        width: 100%;
+        height: 60px;
+        background: black;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 999;
+        padding: 0;
+      .logo_container {
+          padding: 10px 15px;
+          img{
+              max-width: 90px;
+          }
+      }
+      .hamburger_container {
+        padding: 10px 15px;
+        z-index: 1100;
+        img{
+          max-width: 30px;
+        }
+      }
+    }
+
+    .drawer_container{
+        .header_sec{
+            .logo_container{
+                img{
+                    max-width: 90px;
+                    margin-top: -15px;
+                }
+            }
+        }
+        .drawer_body{
+            width: 100%;
+            height: auto;
+            margin-top: 3rem;
+            p{
+                border-bottom: 1px solid lightgray;
+                margin-bottom: 10px;
+                padding: 10px 0;
+            }
+        }
+    }
+    .coming_soon_modal{
+        max-width: 100%;
+        height: auto;
+        position: relative;
+        overflow: hidden;
+        background-color: black;
+        .modal_body{
+          max-width: 100%;
+          height: auto;
+          position: relative;
+          overflow: hidden;
+          padding: 3rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          i{
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            color: white;
+            font-size: 25px;
+            cursor: pointer;
+          }
+          .img_container{
+            img{
+              max-width: 90px;
+              height: auto;
+            }
+          }
+          .title_container{
+            margin-top: 3rem;
+            h1{
+              font-family: Inter;
+              font-style: normal;
+              font-weight: 800;
+              font-size: 60px;
+              line-height: 60px;
+              letter-spacing: -0.025em;
+              color: white;
+              text-align: center;
+            }
+            
+          }
+        }
+      }
+}

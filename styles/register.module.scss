@@ -1,0 +1,112 @@
+@media only screen and (min-width: 768px) {
+  .register_container {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    overflow: hidden;
+    .register_prof_content {
+      position: fixed;
+      width: 50%;
+      height: 100vh;
+      background-color: #ef5da8;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .logo_container {
+        img {
+          max-width: 300px;
+          height: auto;
+        }
+      }
+    }
+    .register_content {
+      max-width: 100%;
+      height: auto;
+      .title_container {
+        padding: 2rem 0 0 0;
+        h2 {
+          font-family: Inter;
+          font-style: normal;
+          font-weight: 800;
+          font-size: 36px;
+          line-height: 40px;
+          color: black;
+          text-align: center;
+          text-transform: uppercase;
+        }
+      }
+      .reg_form_container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .register_container {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    overflow: hidden;
+    .register_prof_content {
+      display: none;
+      // position: fixed;
+      // width: 50%;
+      // height: 100vh;
+      // background-color: #ef5da8;
+      // display: flex;
+      // align-items: center;
+      // justify-content: center;
+      .logo_container {
+        img {
+          max-width: 300px;
+          height: auto;
+        }
+      }
+    }
+    .register_content {
+      max-width: 100%;
+      height: auto;
+      .logo_container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+          max-width: 150px;
+          height: auto;
+          margin-top: 2rem;
+        }
+      }
+      .title_container {
+        padding: 2rem 0 0 0;
+        h2 {
+          font-family: Inter;
+          font-style: normal;
+          font-weight: 800;
+          font-size: 36px;
+          line-height: 40px;
+          color: black;
+          text-align: center;
+          text-transform: uppercase;
+        }
+      }
+      .reg_form_container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+      }
+    }
+  }
+}
